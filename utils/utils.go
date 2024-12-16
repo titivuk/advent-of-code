@@ -1,5 +1,7 @@
 package utils
 
+import "fmt"
+
 var (
 	StraightDirections = [4][2]int{
 		{-1, 0}, // up
@@ -19,4 +21,10 @@ func InRange(m, n, i, j int) bool {
 
 func IsDigit(ch byte) bool {
 	return 48 <= ch && ch <= 57
+}
+
+func printMatrix[E any](m [][]E) {
+	for _, v := range m {
+		fmt.Println(v)
+	}
 }
