@@ -3,3 +3,7 @@ build
 
 # java bytecode
 *.class
+
+*.idea
+*.iml
+out
