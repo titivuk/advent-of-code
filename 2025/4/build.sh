@@ -1,0 +1,1 @@
+javac Day4.java Day4Test.java && java -ea Day4Test
